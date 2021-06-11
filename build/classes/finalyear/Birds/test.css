@@ -1,0 +1,17 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.cb {
+    -fx-background-radius :5em;
+    -fx-min-width: 130px;
+    -fx-min-height: 130px;
+    -fx-max-width: 130px;
+    -fx-max-height: 130px;
+    -fx-background-insets: 0px;
+    -fx-padding: 0px;
+    -fx-background-color: -fx-body-color;
+}

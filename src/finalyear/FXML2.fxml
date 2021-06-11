@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="root11" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalyear.FXML2Controller">
+    <stylesheets>
+        <URL value="@fxml2.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="mm" alignment="CENTER" layoutX="566.0" layoutY="380.0" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="42.0" prefWidth="170.0" stylesheets="@fxml.css" text="Gorilla" textAlignment="JUSTIFY">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="green" />
+            <String fx:value="cb" />
+         </styleClass>
+      </Button>
+      <Button alignment="CENTER" layoutX="977.0" layoutY="198.0" mnemonicParsing="false" stylesheets="@fxml.css" text="Rhino" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="green" />
+         </styleClass>
+      </Button>
+      <Button layoutX="977.0" layoutY="574.0" mnemonicParsing="false" stylesheets="@fxml.css" text="Ostrich" textAlignment="JUSTIFY">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="blueviolet" />
+         </styleClass>
+      </Button>
+      <Button layoutX="395.0" layoutY="574.0" mnemonicParsing="false" onAction="#elephant" stylesheets="@fxml.css" text="Elephant" textAlignment="JUSTIFY">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="blueviolet" />
+         </styleClass>
+      </Button>
+      <Button layoutX="225.0" layoutY="189.0" mnemonicParsing="false" stylesheets="@fxml.css" text="Tiger" textAlignment="JUSTIFY">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="blueviolet" />
+         </styleClass>
+      </Button>
+      <Button fx:id="mm1" alignment="CENTER" layoutX="470.0" layoutY="189.0" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="42.0" prefWidth="170.0" stylesheets="@fxml.css" text="Parrot" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="orange" />
+         </styleClass>
+      </Button>
+      <Button alignment="CENTER" layoutX="1180.0" layoutY="198.0" mnemonicParsing="false" stylesheets="@fxml.css" text="Hippo" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="blueviolet" />
+         </styleClass>
+      </Button>
+      <Button layoutX="1222.0" layoutY="574.0" mnemonicParsing="false" onAction="#zebra" stylesheets="@fxml.css" text="Zebra" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="green" />
+         </styleClass>
+      </Button>
+      <Button layoutX="690.0" layoutY="574.0" mnemonicParsing="false" stylesheets="@fxml.css" text="Alligator" textAlignment="JUSTIFY">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="red" />
+         </styleClass>
+      </Button>
+      <Button layoutX="258.0" layoutY="392.0" mnemonicParsing="false" stylesheets="@fxml.css" text="Giraffe" textAlignment="JUSTIFY">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="red" />
+         </styleClass>
+      </Button>
+      <Button fx:id="mm11" alignment="CENTER" layoutX="900.0" layoutY="403.0" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#chameleon" prefHeight="42.0" prefWidth="170.0" stylesheets="@fxml.css" text="Chameleon" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="orange" />
+         </styleClass>
+      </Button>
+      <Button alignment="CENTER" layoutX="731.0" layoutY="198.0" mnemonicParsing="false" stylesheets="@fxml.css" text="Tortoise" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="blue" />
+            <String fx:value="cb" />
+         </styleClass>
+      </Button>
+      <Button layoutX="1134.0" layoutY="392.0" mnemonicParsing="false" stylesheets="@fxml.css" text="Crocodile" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="blue" />
+         </styleClass>
+      </Button>
+      <Button layoutX="26.0" layoutY="546.0" mnemonicParsing="false" stylesheets="@fxml.css" text="Monkey" textAlignment="JUSTIFY">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="blue" />
+         </styleClass>
+      </Button>
+      <Button layoutX="14.0" layoutY="280.0" mnemonicParsing="false" stylesheets="@fxml.css" text="Lion" textAlignment="JUSTIFY">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="cb" />
+            <String fx:value="green" />
+         </styleClass>
+      </Button>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#menu" text="Menu">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fill="#c61212" layoutX="463.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click to watch your Favourite Animal">
+         <font>
+            <Font name="Cooper Black" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

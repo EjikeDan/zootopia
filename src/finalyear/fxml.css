@@ -1,0 +1,58 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.theme{
+    -fx-background-color: lightgray;
+}
+.cb {
+    -fx-background-radius :5em;
+    -fx-min-width: 130px;
+    -fx-min-height: 130px;
+    -fx-max-width: 130px;
+    -fx-max-height: 130px;
+    -fx-background-insets: 0px;
+    -fx-padding: 0px;
+    }
+    .button:hover{
+        -fx-background-color: B3E5FC;
+    }
+.green {
+    -fx-background-color: green;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: white;
+}
+.blueviolet {
+    -fx-background-color: blueviolet;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: white;
+}
+.red {
+    -fx-background-color: #b11818;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill:  white;
+}
+.blue {
+    -fx-background-color: blue;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill:  white;
+}
+.orange {
+    -fx-background-color: red;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill:white;
+}
+
+.glass-white{
+    -fx-background-color: 
+        lightblue,
+        linear-gradient(lightblue 100%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    /*-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );*/
+}

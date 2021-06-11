@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2018, 10:35:33 AM
+    Author     : Danni
+*/
+
+.mainFxmlClass {
+
+}
+.liontext {
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 0;
+    -fx-border-radius: 5;
+    -fx-border-color: black;
+    -fx-background-color: #e0e0e0;
+/*-fx-border
+-fx-background-color: transparent;
+-fx-background-insets: 10;
+-fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);*/
+}
+.lion {
+    -fx-effect: null;
+}
+.lionimage {
+   -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: black; 
+}
